@@ -5,7 +5,7 @@
 /**
  * main - print exactly and yhat piece is useful
  *
- * Return: 0
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
