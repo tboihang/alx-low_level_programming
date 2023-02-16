@@ -3,8 +3,7 @@
 
 
 /**
- * main - print exactly "and that piece of art is useful"
- * - Dora Korpar, 2015-10-19
+ * main - print exactly and yhat piece is useful
  *
  * Return: 0
 */
