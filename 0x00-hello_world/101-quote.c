@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-
-
 /**
- * main - print exactly and yhat piece is useful
+ * main - print exactly and that piece is useful
  *
- * Return: Always 0 (Success)
+ * Return: 1
 */
 int main(void)
 {
