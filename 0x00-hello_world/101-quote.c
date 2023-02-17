@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - print exactly "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ * main - print exactly "and that piece of art is useful"
+ * - Dora Korpar, 2015-10-19
  *
- * Return: Always 1.
+ * Return: 1
  */
 int main(void)
 {
