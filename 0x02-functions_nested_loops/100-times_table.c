@@ -3,7 +3,7 @@
 /**
  * print_times_table - Engrave the times of input,
  * starting with 0.
- * @n: The value of the times table to be engraved
+ * @n: The value of the times table to be engraved.
  */
 
 void print_times_table(int n)
@@ -19,7 +19,7 @@ void print_times_table(int n)
 	for (mult = 1; mult <= n; mult++)
 	{
 	_putchar(',');
-	_putchar(',');
+	_putchar(' ');
 	prod = num * mult;
 	if (prod <= 99)
 	_putchar(' ');
