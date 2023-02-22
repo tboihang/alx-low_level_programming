@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_tables - Engrave the times of input,
+ * print_times_table - Engrave the times of input,
  * starting with 0.
  * @n: The value of the times table to be engraved
  */
