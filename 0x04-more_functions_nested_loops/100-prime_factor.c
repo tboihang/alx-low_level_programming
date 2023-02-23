@@ -1,27 +1,44 @@
 #include <stdio.h>
-
 /**
- * main - entry point
- *
- * Return: always 0 (sucess)
+ * main - Entry pont
  */
-int main(void)
+
+
+
+int main()
 {
-	unsigned long int num = 612852475143;
-	unsigned long int prim;
+    int i, j, isPrime;
+    long int num;
+    /* Input a number from user */
 
-	prim = 3;
-	while (prim < num / 2)
-	{
-		if ((num % prim) == 0)
-		{
-			if((prim % 3) == 2)
-				printf(",%lu ", prim);
-		}
+  num = 612852475143;
 
-		prim+=2;
-	}
+    printf("All Prime Factors of %ld are: \n", num);
 
-	putchar('\n');
-	return (0);
+    /* Find all Prime factors */
+    for(i=2; i<=num; i++)
+    {
+        /* Check 'i' for factor of num */
+        if(num%i==0)
+        {
+            /* Check 'i' for Prime */
+            isPrime = 1;
+            for(j=2; j<=i/2; j++)
+            {
+                if(i%j==0)
+                {
+                    isPrime = 0;
+                    break;
+                }
+            }
+
+            /* If 'i' is Prime number and factor of num */
+            if(isPrime==1)
+            {
+                printf("%d, ", i);
+            }
+        }
+    }
+
+    return 0;
 }
