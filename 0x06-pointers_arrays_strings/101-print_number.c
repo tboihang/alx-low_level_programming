@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * prints_number - Prints integer.
- * @n: Integer to be printed
- *
+ * print - prints an integer
+ * @n: The integer to be printed.
  */
 
-void print_number(int n);
+
+void print_number(int n)
+
 {
 	unsigned int num = n;
 
 	if (n < 0)
 	{
-	_putchar('-');
+	_putchar( '-' );
 	num = -num;
 	}
 
